@@ -1,0 +1,23 @@
+{
+  "SEARCH_CRITERIA_DROPDOWN": "select#aramaKriteri, input[name*='Kriter'], input[id*='cmbArama'], input[id*='AramaKriter'], [aria-label='Arama Kriteri']",
+  "SEARCH_CRITERIA_OPTION_TEXT": "Örnek No",
+  "SEARCH_INPUT": "input#ornekNoInput, input[id*='txtOrnek'], input[id*='txtArama'], input[placeholder*='Örnek'], input[name*='OrnekNo'], input[name='aramaMetni']",
+  "SEARCH_BUTTON": "button:has-text('Ara'), .x-btn:has-text('Ara'), .x-btn-text:has-text('Ara'), button#btnAra, input[value='Ara']",
+  "PATIENT_ROW": "div.x-grid3-row:has-text('{ornek_no}'), tr.x-grid-row:has-text('{ornek_no}'), table tbody tr:has-text('{ornek_no}')",
+  "CONTEXT_MENU_RECETE_YAZ": ".x-menu-item:has-text('Reçete Yaz'), a.x-menu-item-link:has-text('Reçete Yaz'), text='Reçete Yaz'",
+  "BTN_YENI_F2": "button:has-text('Yeni (F2)'), .x-btn:has-text('Yeni (F2)'), .x-btn-text:has-text('Yeni (F2)'), button:has-text('Yeni')",
+  "DOKTOR_DROPDOWN": "select#doktorId, input[id*='cmbDoktor'], input[id*='Doktor'], input[name*='doktor'], [placeholder*='Doktor']",
+  "SABLONLAR_MENU": "button:has-text('Şablonlar'), .x-btn:has-text('Şablonlar'), .x-btn-text:has-text('Şablonlar'), text='Şablonlar'",
+  "ILAC_GRID_ROW": ".ilac-listesi tr, .x-grid-item, .x-grid3-row, .x-grid-row",
+  "RECETEM_TOP_MENU": "button:has-text('Reçetem'), .x-btn:has-text('Reçetem'), .x-btn-text:has-text('Reçetem')",
+  "RECETEM_SEND_OPTION": ".x-menu-item:has-text('Reçetem Sistemi Reçete Yaz'), text='Reçetem Sistemi Reçete Yaz(Seçilen Reçete Bilgileriyle)'",
+  "RECETEM_IFRAME": "iframe[src*='recetem'], iframe[src*='enabiz'], iframe#recetemFrame",
+  "EK_TANI_INPUT": "input[placeholder*='Tanı'], input#ekTaniInput, input[name*='tani'], .tani-arama-input",
+  "EK_TANI_DROPDOWN_ITEM": ".ui-autocomplete li:has-text('{code}'), .dropdown-item:has-text('{code}'), tr:has-text('{code}'), .x-combo-list-item:has-text('{code}'), .x-boundlist-item:has-text('{code}')",
+  "EK_TANI_EKLE_BTN": "button:has-text('Ekle'), button#btnTaniEkle, button:has-text('Kaydet')",
+  "EIMZA_PANEL": "text='E-İMZA BİLGİLERİ'",
+  "PIN_INPUT": "input[type='password'], input[placeholder*='Pin'], input#pinKodu, input[name*='pin']",
+  "IMZALA_BTN": "button:has-text('İmzala'), input[type='button'][value='İmzala'], #btnImzala",
+  "LOADING_MASK": ".x-mask-loading, .ext-el-mask-msg, .loading-spinner, .blockUI, .swal2-loading",
+  "RECETE_NO_CONTAINER": "#receteNo, [data-testid='recete-no'], td:right-of(:text('Reçete No')), span:right-of(:text('Reçete Numarası')), .recete-no-deger, .alert-success"
+}

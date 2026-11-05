@@ -1,0 +1,17 @@
+# Hassas veriler (E-İmza PIN vb. kesinlikle GitHub'a yüklenmemeli!)
+.env
+
+# Derleme ve paketleme çıktıları
+build/
+dist/
+release_paketi/
+__pycache__/
+*.py[cod]
+*.spec
+*.old
+
+# Geçici güncelleme ve hata ayıklama dosyaları
+app_update_temp.zip
+debug_rapor.txt
+hata_ekran_goruntusu.png
+
